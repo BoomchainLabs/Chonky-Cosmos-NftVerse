@@ -1,0 +1,73 @@
+@keyframes purchaseAnimation__move-left {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes purchaseAnimation__size-change {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.purchaseAnimation__purchase-div {
+  background: linear-gradient(145deg, #2c2c2c, #1a1a1a);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  color: #e0e0e0;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.purchaseAnimation__moving-text {
+  animation: purchaseAnimation__move-left 10s linear infinite;
+  white-space: nowrap;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+
+.purchaseAnimation__dot {
+  font-size: 24px;
+  display: inline-block;
+  animation: purchaseAnimation__size-change 1s infinite;
+  margin: 0 2px;
+  color: #ffd700;
+}
+
+.purchaseAnimation__purchase-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.purchaseAnimation__purchase-button:hover {
+  background-color: #45a049;
+}
+
+.purchaseAnimation__image-container {
+  margin-bottom: 10px;
+}
