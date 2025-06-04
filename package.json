@@ -19,7 +19,7 @@
     "@0xsequence/api": "2.1.0",
     "@0xsequence/design-system": "^1.8.0",
     "@0xsequence/indexer": "^2.1.0",
-    "@0xsequence/kit": "4.4.4",
+    "@0xsequence/kit": "4.6.5",
     "@0xsequence/kit-checkout": "4.4.4",
     "@0xsequence/metadata": "2.1.0",
     "@0xsequence/network": "^2.1.0",
