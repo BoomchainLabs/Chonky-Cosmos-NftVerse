@@ -24,8 +24,8 @@ importers:
         specifier: 4.4.4
         version: 4.4.4(wtibsllqb3fehu53feql6e5q2a)
       '@0xsequence/kit-checkout':
-        specifier: 4.4.4
-        version: 4.4.4(bwoo7475k4xqivrzbufzci4oja)
+        specifier: 4.6.5
+        version: 4.6.5(bwoo7475k4xqivrzbufzci4oja)
       '@0xsequence/metadata':
         specifier: 2.1.0
         version: 2.1.0
@@ -154,24 +154,24 @@ packages:
   '@0xsequence/indexer@2.1.0':
     resolution: {integrity: sha512-6iYFmZkJGGczHKdsm6iv0QXsIRwixx2CFcbycFxG6den+q/wKmrIu1wpxBb2KuF+WVskxpxQAFwSyWWXuohRJg==}
 
-  '@0xsequence/kit-checkout@4.4.4':
-    resolution: {integrity: sha512-xlYSyLLBWiloUrMrkqHWsYV4VmHKHvIDYJF/XfNC7pbGisIHskaE7wazYGEzuEMVJnL7hfRHaIn8nHcm54H05g==}
+  '@0xsequence/kit-checkout@4.6.5':
+    resolution: {integrity: sha512-elgNFjJtEPzKBzC9I5J+iPFamSW/FCYoNjxeZDNoCqOh579ZZml+ZtJe775P89xH5rv3t2veKUZswVXbYFsN4A==}
     peerDependencies:
-      0xsequence: '>= 2.0.20'
-      '@0xsequence/api': '>= 2.0.20'
-      '@0xsequence/design-system': '>= 1.7.8'
-      '@0xsequence/indexer': '>= 2.0.20'
-      '@0xsequence/kit': 4.4.4
-      '@0xsequence/metadata': '>= 2.0.20'
-      '@0xsequence/network': '>= 2.0.20'
-      '@0xsequence/waas': '>= 2.0.20'
-      '@tanstack/react-query': '>= 5.0.0'
-      ethers: '>= 6.13.0'
-      framer-motion: '>= 8.5.2'
-      react: '>= 17'
-      react-dom: '>= 17'
-      viem: '>= 2.0.0'
-      wagmi: '>= 2.0.0'
+      0xsequence: ^2.2.13
+      '@0xsequence/api': ^2.2.13
+      '@0xsequence/design-system': ^1.9.0
+      '@0xsequence/indexer': ^2.2.13
+      '@0xsequence/kit': 4.6.5
+      '@0xsequence/metadata': ^2.2.13
+      '@0xsequence/network': ^2.2.13
+      '@0xsequence/waas': ^2.2.13
+      '@tanstack/react-query': ^5.0.0
+      ethers: ^6.13.0
+      framer-motion: ^8.5.2
+      react: '>= 17 < 19'
+      react-dom: '>= 17 < 19'
+      viem: ^2.0.0
+      wagmi: ^2.14.11
 
   '@0xsequence/kit@4.4.4':
     resolution: {integrity: sha512-hoDtBC1m3G32ZV2NZV6Asga4GemeM8/Tymuleg8tAH+LIv8PbrlQXOccGP0Q3WtHS9+4hQ0cPFG8/tbxvITtNQ==}
@@ -185,6 +185,9 @@ packages:
       react-dom: '>= 17'
       viem: '>= 2.0.0'
       wagmi: '>= 2.0.0'
+
+  '@0xsequence/marketplace@2.3.17':
+    resolution: {integrity: sha512-g1COJ2ZqbRyfqxuOkpoD/4Y29dAxas2sj+nOiZFvQHyCW9jPqziYbMtAurhjHXgh22qQlUaL3vsdhxYFdmovaA==}
 
   '@0xsequence/metadata@2.1.0':
     resolution: {integrity: sha512-TFCVoIAzwAyCuNO717zzUQ5k9VGP7J+aExJAS9k2u5khU5e5EGtmvCDERWmwNNq4hesJ6dLxopyqsKg6soEeEw==}
@@ -5063,6 +5066,9 @@ packages:
     resolution: {integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==}
     engines: {node: '>=6'}
 
+  pako@2.1.0:
+    resolution: {integrity: sha512-w+eufiZ1WuJYgPXbV/PO3NCMEc3xqylkKHzp8bxp1uW4qaSNQUkwmLLEc3kKsfz8lpV1F8Ht3U1Cm+9Srog2ug==}
+
   parent-module@1.0.1:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
     engines: {node: '>=6'}
@@ -6383,19 +6389,21 @@ snapshots:
 
   '@0xsequence/indexer@2.1.0': {}
 
-  '@0xsequence/kit-checkout@4.4.4(bwoo7475k4xqivrzbufzci4oja)':
+  '@0xsequence/kit-checkout@4.6.5(bwoo7475k4xqivrzbufzci4oja)':
     dependencies:
       0xsequence: 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/api': 2.1.0
       '@0xsequence/design-system': 1.8.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(framer-motion@8.5.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@0xsequence/indexer': 2.1.0
       '@0xsequence/kit': 4.4.4(wtibsllqb3fehu53feql6e5q2a)
+      '@0xsequence/marketplace': 2.3.17
       '@0xsequence/metadata': 2.1.0
       '@0xsequence/network': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/waas': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@tanstack/react-query': 5.61.4(react@18.3.1)
       ethers: 6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       framer-motion: 8.5.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      pako: 2.1.0
       qrcode.react: 4.1.0(react@18.3.1)
       react: 18.3.1
       react-copy-to-clipboard: 5.1.0(react@18.3.1)
@@ -6432,6 +6440,8 @@ snapshots:
       - '@types/react'
       - '@types/react-dom'
       - aws-crt
+
+  '@0xsequence/marketplace@2.3.17': {}
 
   '@0xsequence/metadata@2.1.0': {}
 
@@ -12731,6 +12741,8 @@ snapshots:
       p-limit: 3.1.0
 
   p-try@2.2.0: {}
+
+  pako@2.1.0: {}
 
   parent-module@1.0.1:
     dependencies:
