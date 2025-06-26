@@ -12,8 +12,8 @@ importers:
         specifier: 2.1.0
         version: 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/api':
-        specifier: 2.1.0
-        version: 2.1.0
+        specifier: 2.3.20
+        version: 2.3.20
       '@0xsequence/design-system':
         specifier: ^1.8.0
         version: 1.8.0(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(framer-motion@8.5.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -25,7 +25,7 @@ importers:
         version: 4.4.4(rycd3wl5jpdrllipsigk6bhijq)
       '@0xsequence/kit-checkout':
         specifier: 4.6.5
-        version: 4.6.5(csq4sy5zewtqpuvui5bowpmc3m)
+        version: 4.6.5(3mpilqy2eor4qauhuibhn3eevm)
       '@0xsequence/metadata':
         specifier: 2.1.0
         version: 2.1.0
@@ -123,6 +123,9 @@ packages:
 
   '@0xsequence/api@2.1.0':
     resolution: {integrity: sha512-Wyw6bvAhccEIb/2W10m3K19d3IWFvQo6LzMWelR0tpDuaiBZPTMaG7Oh+OHzVYbgu+1HCk2bbLCUh3JfBXRy1A==}
+
+  '@0xsequence/api@2.3.20':
+    resolution: {integrity: sha512-BXmnlRkVg4Sv1jvnAM6Ovr5aWtBF+epobvz1gXwyhFUeSBbQavCppmaX7spmi8psSRIPB+QorLVD/3BuIR9MUQ==}
 
   '@0xsequence/auth@2.1.0':
     resolution: {integrity: sha512-2KBBHbWNU21QPb3tt0G8ZIgcSx0j1X8iBZxG5MJ8U5OAUaZIhB3Zo1UEnntNulE8YjXE99vEXHhBSB9gPVrgNg==}
@@ -6396,6 +6399,8 @@ snapshots:
 
   '@0xsequence/api@2.1.0': {}
 
+  '@0xsequence/api@2.3.20': {}
+
   '@0xsequence/auth@2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))':
     dependencies:
       '@0xsequence/abi': 2.1.0
@@ -6457,10 +6462,10 @@ snapshots:
 
   '@0xsequence/indexer@2.1.0': {}
 
-  '@0xsequence/kit-checkout@4.6.5(csq4sy5zewtqpuvui5bowpmc3m)':
+  '@0xsequence/kit-checkout@4.6.5(3mpilqy2eor4qauhuibhn3eevm)':
     dependencies:
       0xsequence: 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
-      '@0xsequence/api': 2.1.0
+      '@0xsequence/api': 2.3.20
       '@0xsequence/design-system': 1.8.0(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(framer-motion@8.5.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@0xsequence/indexer': 2.1.0
       '@0xsequence/kit': 4.4.4(rycd3wl5jpdrllipsigk6bhijq)
@@ -6483,7 +6488,7 @@ snapshots:
   '@0xsequence/kit@4.4.4(rycd3wl5jpdrllipsigk6bhijq)':
     dependencies:
       0xsequence: 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
-      '@0xsequence/api': 2.1.0
+      '@0xsequence/api': 2.3.20
       '@0xsequence/auth': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/core': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/design-system': 1.8.0(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(framer-motion@8.5.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
