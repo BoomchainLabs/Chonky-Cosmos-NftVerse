@@ -19,13 +19,13 @@ importers:
         version: 1.8.0(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(framer-motion@8.5.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@0xsequence/indexer':
         specifier: ^2.1.0
-        version: 2.1.0
+        version: 2.3.20
       '@0xsequence/kit':
         specifier: 4.4.4
         version: 4.4.4(rycd3wl5jpdrllipsigk6bhijq)
       '@0xsequence/kit-checkout':
         specifier: 4.6.5
-        version: 4.6.5(csq4sy5zewtqpuvui5bowpmc3m)
+        version: 4.6.5(avznhbs4sfl7d5mllkky5mexsq)
       '@0xsequence/metadata':
         specifier: 2.1.0
         version: 2.1.0
@@ -153,6 +153,9 @@ packages:
 
   '@0xsequence/indexer@2.1.0':
     resolution: {integrity: sha512-6iYFmZkJGGczHKdsm6iv0QXsIRwixx2CFcbycFxG6den+q/wKmrIu1wpxBb2KuF+WVskxpxQAFwSyWWXuohRJg==}
+
+  '@0xsequence/indexer@2.3.20':
+    resolution: {integrity: sha512-hEFf680SnHUtkWLKvfnP7RaeUIeJDfn7dIUkP8Kan///dmkL/qotSoKOZNLtkcqVMNPA/DPB+BuOihlg5KyqZw==}
 
   '@0xsequence/kit-checkout@4.6.5':
     resolution: {integrity: sha512-elgNFjJtEPzKBzC9I5J+iPFamSW/FCYoNjxeZDNoCqOh579ZZml+ZtJe775P89xH5rv3t2veKUZswVXbYFsN4A==}
@@ -6457,12 +6460,14 @@ snapshots:
 
   '@0xsequence/indexer@2.1.0': {}
 
-  '@0xsequence/kit-checkout@4.6.5(csq4sy5zewtqpuvui5bowpmc3m)':
+  '@0xsequence/indexer@2.3.20': {}
+
+  '@0xsequence/kit-checkout@4.6.5(avznhbs4sfl7d5mllkky5mexsq)':
     dependencies:
       0xsequence: 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/api': 2.1.0
       '@0xsequence/design-system': 1.8.0(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(framer-motion@8.5.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@0xsequence/indexer': 2.1.0
+      '@0xsequence/indexer': 2.3.20
       '@0xsequence/kit': 4.4.4(rycd3wl5jpdrllipsigk6bhijq)
       '@0xsequence/marketplace': 2.3.17
       '@0xsequence/metadata': 2.1.0
@@ -6488,7 +6493,7 @@ snapshots:
       '@0xsequence/core': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/design-system': 1.8.0(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(framer-motion@8.5.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@0xsequence/ethauth': 1.0.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
-      '@0xsequence/indexer': 2.1.0
+      '@0xsequence/indexer': 2.3.20
       '@0xsequence/metadata': 2.1.0
       '@0xsequence/network': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/provider': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
