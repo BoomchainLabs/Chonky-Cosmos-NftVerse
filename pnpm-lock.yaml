@@ -25,10 +25,10 @@ importers:
         version: 4.4.4(rycd3wl5jpdrllipsigk6bhijq)
       '@0xsequence/kit-checkout':
         specifier: 4.6.5
-        version: 4.6.5(csq4sy5zewtqpuvui5bowpmc3m)
+        version: 4.6.5(i35qaky4mqeezbct2kdo4ungoi)
       '@0xsequence/metadata':
-        specifier: 2.1.0
-        version: 2.1.0
+        specifier: 2.3.20
+        version: 2.3.20
       '@0xsequence/network':
         specifier: ^2.1.0
         version: 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
@@ -191,6 +191,9 @@ packages:
 
   '@0xsequence/metadata@2.1.0':
     resolution: {integrity: sha512-TFCVoIAzwAyCuNO717zzUQ5k9VGP7J+aExJAS9k2u5khU5e5EGtmvCDERWmwNNq4hesJ6dLxopyqsKg6soEeEw==}
+
+  '@0xsequence/metadata@2.3.20':
+    resolution: {integrity: sha512-Sres1YJSimNLMlGO7T/CPW/owPj0GGbYYL8G1yOErhx1xxORVMsF9Uv3obbwWLZE6iZM/8N2EkXX/EZJfCk2ng==}
 
   '@0xsequence/migration@2.1.0':
     resolution: {integrity: sha512-OS7QRk58cR9ZC+ugcpXiAW30hDNNDKoKaENsDxsxuo/94j2xjMpNfLB86/flv0xMbB6pE/1ZncEBsFz15Uj0VQ==}
@@ -6457,7 +6460,7 @@ snapshots:
 
   '@0xsequence/indexer@2.1.0': {}
 
-  '@0xsequence/kit-checkout@4.6.5(csq4sy5zewtqpuvui5bowpmc3m)':
+  '@0xsequence/kit-checkout@4.6.5(i35qaky4mqeezbct2kdo4ungoi)':
     dependencies:
       0xsequence: 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/api': 2.1.0
@@ -6465,7 +6468,7 @@ snapshots:
       '@0xsequence/indexer': 2.1.0
       '@0xsequence/kit': 4.4.4(rycd3wl5jpdrllipsigk6bhijq)
       '@0xsequence/marketplace': 2.3.17
-      '@0xsequence/metadata': 2.1.0
+      '@0xsequence/metadata': 2.3.20
       '@0xsequence/network': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/waas': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@tanstack/react-query': 5.61.4(react@18.3.1)
@@ -6489,7 +6492,7 @@ snapshots:
       '@0xsequence/design-system': 1.8.0(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(framer-motion@8.5.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@0xsequence/ethauth': 1.0.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/indexer': 2.1.0
-      '@0xsequence/metadata': 2.1.0
+      '@0xsequence/metadata': 2.3.20
       '@0xsequence/network': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/provider': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/utils': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
@@ -6512,6 +6515,8 @@ snapshots:
   '@0xsequence/marketplace@2.3.17': {}
 
   '@0xsequence/metadata@2.1.0': {}
+
+  '@0xsequence/metadata@2.3.20': {}
 
   '@0xsequence/migration@2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))':
     dependencies:
