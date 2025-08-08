@@ -25,10 +25,10 @@ importers:
         version: 4.4.4(jrhmoboe4g7wev4m5lpmftpsxu)
       '@0xsequence/kit-checkout':
         specifier: 4.6.5
-        version: 4.6.5(25vmmvvlpento6foueznykdvfq)
+        version: 4.6.5(fnbtcsps6l4z43ewr355dkhkvi)
       '@0xsequence/metadata':
-        specifier: 2.1.0
-        version: 2.1.0
+        specifier: 2.3.23
+        version: 2.3.23
       '@0xsequence/network':
         specifier: ^2.1.0
         version: 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
@@ -6584,7 +6584,7 @@ snapshots:
 
   '@0xsequence/indexer@2.3.23': {}
 
-  '@0xsequence/kit-checkout@4.6.5(25vmmvvlpento6foueznykdvfq)':
+  '@0xsequence/kit-checkout@4.6.5(fnbtcsps6l4z43ewr355dkhkvi)':
     dependencies:
       0xsequence: 2.3.23(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/api': 2.1.0
@@ -6592,7 +6592,7 @@ snapshots:
       '@0xsequence/indexer': 2.1.0
       '@0xsequence/kit': 4.4.4(jrhmoboe4g7wev4m5lpmftpsxu)
       '@0xsequence/marketplace': 2.3.17
-      '@0xsequence/metadata': 2.1.0
+      '@0xsequence/metadata': 2.3.23
       '@0xsequence/network': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/waas': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@tanstack/react-query': 5.61.4(react@18.3.1)
@@ -6616,7 +6616,7 @@ snapshots:
       '@0xsequence/design-system': 1.8.0(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(framer-motion@8.5.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@0xsequence/ethauth': 1.0.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/indexer': 2.1.0
-      '@0xsequence/metadata': 2.1.0
+      '@0xsequence/metadata': 2.3.23
       '@0xsequence/network': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/provider': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
       '@0xsequence/utils': 2.1.0(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))
